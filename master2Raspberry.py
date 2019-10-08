@@ -140,7 +140,7 @@ def main():
     if datoError:
         mensaje1 = mensaje1 + " ErrEnv"
     mensaje2 = "Potenciometro: Error"
-    if !potError:
+    if not potError:
         mensaje2 = "Potenciometro: "+str(pot)
     # Enviar mensajes a la pantalla
     lcd_string(mensaje1,LCD_LINE_1)
